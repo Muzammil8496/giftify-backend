@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "asad",
+    "database": "giftify_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "asad",
+    "database": "giftify_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "asad",
+    "database": "giftify_prod",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
