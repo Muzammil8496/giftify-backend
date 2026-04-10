@@ -37,6 +37,7 @@ app.use('/api/wishlist', wishlistRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/payments', paymentRoutes);
 app.use('/api/custom-gifts', customGiftRoutes);
+app.use('/uploads', express.static('public/uploads'));
 
 app.use(notFound);
 app.use(errorHandler);
